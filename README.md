@@ -1,4 +1,4 @@
-# devclub-node-challenge
+# Devclub Node challenge
 <!--This application simulates the registration of orders for a hamburger shop, including customer name, order description and value. The system later adds an ID, allows change, cancellation and displays the status of the order.
 -->
 Este aplicativo simula o cadastro de pedidos para uma hamburgueria, incluindo nome do cliente, descrição do pedido e valor. 
@@ -16,7 +16,7 @@ GET /order, PUT / order/:id, DELETE / Order/:id, GET / Order/:id, PATCH / and Or
 
 > Exibição dos Middlewares "checkOrderId" e "methUrl" no terminal do VSCode.
 
-## 🛸 Sobre o desafio
+## 🛸 Sobre a aplicação
 
 Esta aplicação simula o cadastro, alteração e status dos pedidos de uma hamburgueria utilizando [Node](https://nodejs.org/en/) e [Express](https://expressjs.com/pt-br/).
 
@@ -55,7 +55,7 @@ o array deve fica desta forma:
 
 
 Se chamar a rota `PATCH /order/ac3ebf68-e0ad-4c1d-9822-ff1b849589a8`,
-o array sogfre a seguinte alteração:
+o array sofre a seguinte alteração:
 
 ```js
 [
@@ -71,14 +71,14 @@ o array sogfre a seguinte alteração:
 
 ### Middlewares
 
-- Middleware checkOrderId
+- Middleware checkOrderId:
 Utilizado em todas rotas que recebem o parâmetro ID, verifica se o ID passado existe. Caso não exista, retorne uma mensagem de erro, caso contrário permite que requisição continue normalmente;
 
-- Middleware methUrl
+- Middleware methUrl:
 Chamado em todas requisições que tenha um console.log.
 Mostra o método da requisiçao (GET, POST, PUT, DELETE e PATCH) seguido da url da requisição.
 
-##### Exemplo
+### Exemplo
 [POST] - /order
 
 
