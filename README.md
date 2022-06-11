@@ -36,7 +36,7 @@ Esta aplicação simula o cadastro, alteração e status dos pedidos de uma hamb
 - `PATCH /order/:id`: Essa rota recebe o `id` nos parâmetros e sempre que acionada, altera o status do pedido recebido, pelo id para "Pronto".
 
 
-### Exemplo
+### Exemplo:
 
 Se chamar a rota `POST /order` repassando `{ order: "X- Salada, 2 batatas grandes, 1 coca-cola", clienteName:"José", price: 44.50 }`,
 o array deve fica desta forma:
