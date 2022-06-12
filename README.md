@@ -78,7 +78,7 @@ Utilizado em todas rotas que recebem o parâmetro ID, verifica se o ID passado e
 Chamado em todas requisições que tenha um console.log.
 Mostra o método da requisiçao (GET, POST, PUT, DELETE e PATCH) seguido da url da requisição.
 
-### Exemplo
+### Exemplo:
 [POST] - /order
 
 
