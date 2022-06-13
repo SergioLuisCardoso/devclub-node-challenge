@@ -86,6 +86,7 @@ Mostra o método da requisiçao (GET, POST, PUT, DELETE e PATCH) seguido da url 
 
 #### 📝 Licença
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+Esse projeto está sob licença. 
+Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
 [⬆ Voltar ao topo](#devclub-node-challenge)<br>
